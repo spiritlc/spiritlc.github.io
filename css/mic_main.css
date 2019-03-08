@@ -2340,24 +2340,30 @@
 					width: 100%;
 					height: 100%;
 					margin-left: 3.5em;
+					display: flex;
+					padding: 5rem 0;
+					justify-content: space-around;
+					flex-direction: column;
 				}
 
 					#me header > h1 {
+						padding-top: .2rem;
 						text-transform : Capitalize;
-						position: absolute;
+						/* position: absolute;
 						left: 0;
-						bottom: 52.5%;
+						bottom: 52.5%; */
 						font-size: 3.5rem;
 						margin: 0;
 					}
 
 					#me header > p {
-						position: absolute;
+						/* position: absolute;
 						left: 0;
-						top: 52.5%;
+						top: 52.5%; */
 						font-size: 1.5em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
+						margin: 0px;
 					}
 
 	}
